@@ -1,8 +1,8 @@
 import card1 from "../assests/actioncard1.jpg"
-import card2 from "../assests/actioncard2.jpg"
-import card3 from "../assests/actioncardwax.jpg"
-import card4 from "../assests/actioncardtint.jpg"
-import card5 from "../assests/actioncardwash.jpg"
+// import card2 from "../assests/actioncard2.jpg"
+// import card3 from "../assests/actioncardwax.jpg"
+// import card4 from "../assests/actioncardtint.jpg"
+// import card5 from "../assests/actioncardwash.jpg"
 import Image from 'next/image'
 
 
@@ -23,7 +23,7 @@ function Cards() {
             <div className=" cursor-pointer hover:scale-105 transform transition duration-300 ease-out " >
                 <div className='relative h-80 w-80 '>
                     <Image
-                        src = {card2}
+                        src = {card1}
                         layout = "fill"
                         className=' rounded-xl'
                     /> {/*the image is sized relative to it's parent's container*/}
@@ -34,7 +34,7 @@ function Cards() {
             <div className=" cursor-pointer hover:scale-105 transform transition duration-300 ease-out " >
                 <div className='relative h-80 w-80 '>
                     <Image
-                        src = {card3}
+                        src = {card1}
                         layout = "fill"
                         className=' rounded-xl'
                     /> {/*the image is sized relative to it's parent's container*/}
@@ -45,7 +45,7 @@ function Cards() {
             <div className=" cursor-pointer hover:scale-105 transform transition duration-300 ease-out " >
                 <div className='relative h-80 w-80 '>
                     <Image
-                        src = {card4}
+                        src = {card1}
                         layout = "fill"
                         className=' rounded-xl'
                     /> {/*the image is sized relative to it's parent's container*/}
@@ -56,7 +56,7 @@ function Cards() {
             <div className=" cursor-pointer hover:scale-105 transform transition duration-300 ease-out " >
                 <div className='relative h-80 w-80 '>
                     <Image
-                        src = {card5}
+                        src = {card1}
                         layout = "fill"
                         className=' rounded-xl'
                     /> {/*the image is sized relative to it's parent's container*/}

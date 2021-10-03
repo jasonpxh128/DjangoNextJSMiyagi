@@ -1,6 +1,4 @@
 import Image from "next/image"
-import whatwedo1 from '../assests/whatwedo1.jpg'
-import whatwedo3 from '../assests/whatwedo3.jpg'
 import daaction from '../assests/da.jpg'
 
 function Largecard() {
