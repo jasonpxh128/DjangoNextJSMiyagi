@@ -41,9 +41,9 @@ export default function Home() {
       </section>
       <main className=' max-w-6xl mx-auto'>
         <section>
-          <p className=' text-5xl font-semibold uppercase text-center text-bold mt-10 font-montserrat tracking-widest'> What we do</p>
+          <p className=' text-5xl font-semibold uppercase text-center text-bold mt-10 font-montserrat tracking-widest pb-5 border-b border-red-600'> What we do</p>
           
-          <p className='text-xl font-semibold text-red-600 text-center text-bold mb-3'>____________________________________________</p>
+          {/* <p className='text-xl font-semibold text-red-600 text-center text-bold mb-3'>____________________________________________</p> */}
           <p className=' text-sm text-center  mt-5 mb-10'> So many options to choose from, but which suits your needs most?</p>
           {/* <Cards/> */}
           <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-x-1 font-montserrat'>
@@ -79,7 +79,7 @@ export default function Home() {
           hero = {heroimage2}
           firsttext = 'Exclusive Packages Available'
           secondtext = 'all make, all models'
-          buttontext = 'Explore Packages'
+          buttontext = 'Explore Packages >'
         />
       </section>
       <section className='bg-gray-100'>
